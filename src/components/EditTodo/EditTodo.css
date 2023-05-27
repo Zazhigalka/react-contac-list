@@ -1,0 +1,47 @@
+.main-modal {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: rgba(200, 200, 200, 0.527);
+}
+
+.inner-modal {
+  width: 300px;
+  height: 220px;
+  background-color: blueviolet;
+  margin: 150px auto;
+  padding: 10px;
+  border: 2px solid black;
+  border-radius: 10px;
+}
+
+.inner-modal input {
+  margin-bottom: 5px;
+  background-color: violet;
+  font-size: 20px;
+  border: 1px solid black;
+  border-radius: 5px;
+  padding: 4px;
+}
+
+.inner-modal button {
+  width: 50%;
+  margin: auto;
+  background-color: violet;
+  padding: 4px;
+  border: 2px solid black;
+  border-radius: 5px;
+}
+
+.close {
+  width: 100%;
+  display: flex;
+  justify-content: end;
+}
+
+.close button {
+  width: 35px;
+  margin-right: 0px;
+}

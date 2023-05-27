@@ -1,0 +1,31 @@
+div {
+  display: flex;
+  flex-direction: column;
+  /* width: 250px; */
+  /* background-color: blue; */
+}
+
+div input,
+div button {
+  width: 250px;
+}
+
+div input {
+  height: 20px;
+  margin-bottom: 10px;
+
+  background-color: violet;
+  font-size: 20px;
+  border: 1px solid black;
+  border-radius: 5px;
+  padding: 4px;
+}
+
+div button {
+  background-color: violet;
+  padding: 4px;
+  border: 2px solid black;
+  border-radius: 5px;
+  font-size: 18px;
+  font-weight: 500;
+}

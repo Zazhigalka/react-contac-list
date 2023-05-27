@@ -1,0 +1,36 @@
+li {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  background-color: blueviolet;
+  padding: 10px;
+  border: 2px solid black;
+  border-radius: 10px;
+  margin-right: 30px;
+}
+
+li button {
+  width: 50%;
+  margin: auto;
+  background-color: violet;
+  padding: 4px;
+  border: 2px solid black;
+  border-radius: 5px;
+}
+
+li span {
+  margin-bottom: 5px;
+  background-color: violet;
+  font-size: 20px;
+  border: 1px solid black;
+  border-radius: 5px;
+  padding: 4px;
+}
+
+.last {
+  margin-bottom: 20px;
+}
+
+.ul {
+  display: flex;
+}
