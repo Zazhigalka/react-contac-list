@@ -54,10 +54,32 @@ const AddTodo = (props) => {
   return (
     <div>
       <h2>ADD CONTACT</h2>
-      <input type="text" value={name} name="" id="" onChange={handleInput} />
-      <input type="text" value={lastName} onChange={handleLastName} />
-      <input type="text" value={number} onChange={handleNumber} />
-      <input type="text" value={mail} onChange={handleMail} />
+      <input
+        type="text"
+        placeholder="Name"
+        value={name}
+        name=""
+        id=""
+        onChange={handleInput}
+      />
+      <input
+        type="text"
+        placeholder="Last name"
+        value={lastName}
+        onChange={handleLastName}
+      />
+      <input
+        type="text"
+        placeholder="Number"
+        value={number}
+        onChange={handleNumber}
+      />
+      <input
+        type="text"
+        placeholder="Mail"
+        value={mail}
+        onChange={handleMail}
+      />
 
       <button onClick={handleAdd}>Add Contact</button>
     </div>
