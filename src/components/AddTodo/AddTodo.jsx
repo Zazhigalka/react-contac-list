@@ -69,7 +69,7 @@ const AddTodo = (props) => {
         onChange={handleLastName}
       />
       <input
-        type="text"
+        type="number"
         placeholder="Number"
         value={number}
         onChange={handleNumber}

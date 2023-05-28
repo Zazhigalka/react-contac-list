@@ -63,7 +63,7 @@ const EditTodo = (props) => {
 
         <input
           onChange={handleEditNumber}
-          type="text"
+          type="number"
           value={item.number}
           name=""
           id=""
