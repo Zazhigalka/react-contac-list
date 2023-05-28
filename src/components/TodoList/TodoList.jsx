@@ -9,10 +9,10 @@ const TodoList = (props) => {
         {/* перебираем массив todos, где на каждый таск возвращаем li  */}
         {props.contact.map((item) => (
           <li key={item.id} className="li">
-            <span>{item.name}</span>
-            <span>{item.lastName}</span>
-            <span>{item.number}</span>
-            <span className="last">{item.mail}</span>
+            Name :<span>{item.name}</span>
+            Last name :<span>{item.lastName}</span>
+            Number :<span>{item.number}</span>
+            Mail :<span className="last">{item.mail}</span>
             <div>
               <button onClick={() => props.handleEdit(item)}>edit</button>
               <button onClick={() => props.handleDelete(item.id)}>
